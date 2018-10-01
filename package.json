@@ -1,14 +1,17 @@
 {
   "dependencies": {
+    "@reactivex/rxjs": "^6.3.3",
     "body-parser": "^1.18.3",
     "config": "^2.0.1",
     "cookie-parser": "^1.4.3",
     "cors": "^2.8.4",
     "debug": "^4.0.1",
     "express": "^4.16.3",
+    "node-rx": "^0.0.3",
     "reflect-metadata": "^0.1.12",
     "rimraf": "^2.6.2",
     "routing-controllers": "^0.7.7",
+    "rx": "^4.1.0",
     "typescript": "^3.1.1",
     "winston": "^3.1.0"
   },
@@ -24,8 +27,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "clean":"node ./node_modules/rimraf/bin.js dist",
-    "build":"node ./node_modules/typescript/bin/tsc",
+    "clean": "node ./node_modules/rimraf/bin.js dist",
+    "build": "node ./node_modules/typescript/bin/tsc",
     "start": "npm run clean && npm run build && node ./dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
