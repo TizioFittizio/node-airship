@@ -1,0 +1,1 @@
+This has an instantiation of the logger or other modules, which can be shared across the entire application.

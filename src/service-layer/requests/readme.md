@@ -1,0 +1,1 @@
+This has TypeScript interfaces defining and showing the attributes that constitute each of the different kinds of request in the controller.

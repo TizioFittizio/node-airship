@@ -1,0 +1,1 @@
+Adapters: This implements the setup of MongoDB connection methods for connecting to the MongoDB database and adding events on connected, error, open, disconnected, reconnected, and forced exit methods

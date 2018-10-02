@@ -1,0 +1,1 @@
+Here, we will write code for the service registration/deregistration, verification, internal security, microservices communicating with the service registry, the API Gateway, and so on.

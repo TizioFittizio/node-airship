@@ -1,0 +1,1 @@
+This has a TypeScript class representation of the data portrayed by the MongoDB document
